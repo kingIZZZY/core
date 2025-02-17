@@ -1,0 +1,46 @@
+{
+    "name": "swooletw/hyperf-core",
+    "type": "library",
+    "description": "The core package for Laravel Hyperf.",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "hyperf",
+        "core",
+        "swoole",
+        "laravel-hyperf"
+    ],
+    "authors": [
+        {
+            "name": "Albert Chen",
+            "email": "albert@laravel-hyperf.com",
+            "homepage": "https://albert-chen.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/swooletw/hyperf-packages/issues",
+        "source": "https://github.com/swooletw/hyperf-packages"
+    },
+    "autoload": {
+        "psr-4": {
+            "SwooleTW\\Hyperf\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "hyperf/database": "~3.1.0",
+        "hyperf/http-message": "~3.1.0",
+        "hyperf/redis": "~3.1.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "hyperf": {
+            "config": "SwooleTW\\Hyperf\\ConfigProvider"
+        },
+        "branch-alias": {
+            "dev-main": "0.1-dev"
+        }
+    }
+}
