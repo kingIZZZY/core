@@ -28,7 +28,7 @@
     "require": {
         "php": "^8.2",
         "hyperf/database": "~3.2.0",
-        "hyperf/http-message": "~3.2.0",
+        "hyperf/http-message": "^3.2.0",
         "hyperf/context": "~3.2.0",
         "hyperf/redis": "~3.2.0"
     },
